@@ -31,8 +31,8 @@ public class CarrinhoDeCompras implements EcommerceRepository{
     }
 
     @Override
-    public double calcularTotal() {
-        double total = 0;
+    public float calcularTotal() {
+        float total = 0;
         for (Map.Entry<String, Integer> entry : itens.entrySet()) {
             String nome = entry.getKey();
             int quantidade = entry.getValue();

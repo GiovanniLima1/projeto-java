@@ -1,7 +1,7 @@
 package ecommerce.model;
 
 public abstract class Ecommerce {
-	private  String nome;
+	public  String nome;
 	private  float preco;
 
     
